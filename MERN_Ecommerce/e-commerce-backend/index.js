@@ -10,7 +10,7 @@ const cors = require("cors");
 app.use(express.json());
 app.use(cors(
   {
-    origin: ["*"],
+    origin: ["https://vibe-cart-college-project.vercel.app/"],
     methods: ["POST", "GET"],
     credential: true
   }
